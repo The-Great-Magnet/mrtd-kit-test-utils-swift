@@ -20,6 +20,10 @@ public  class TestMRVAMRZBuilder: TestMRZBuilder, TestMRVAMRZBuilderFields {
     public var dateOfExpiry: String?
     public var dateOfExpiryCheckDigit: Character?
     public var optionalData: String?
+    
+    public init() {
+        
+    }
 
     public func aValidMRZ() -> TestMRVAMRZBuilder {
 

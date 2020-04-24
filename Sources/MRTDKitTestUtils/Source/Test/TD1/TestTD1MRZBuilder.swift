@@ -24,6 +24,10 @@ public class TestTD1MRZBuilder: TestMRZBuilder, TestTD1MRZBuilderFields {
     public var optionalData1: String?
     public var optionalData2: String?
     public var compositeCheckDigit: Character?
+    
+    public init() {
+        
+    }
 
     public func aValidMRZ() -> TestTD1MRZBuilder {
 

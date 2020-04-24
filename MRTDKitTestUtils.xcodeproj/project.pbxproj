@@ -23,7 +23,6 @@
 /* Begin PBXBuildFile section */
 		3719C6D224530B8D00DF532D /* MRTDKitCore in Frameworks */ = {isa = PBXBuildFile; productRef = 3719C6D124530B8D00DF532D /* MRTDKitCore */; };
 		3719C6D524530BA400DF532D /* MRTDKitSpec in Frameworks */ = {isa = PBXBuildFile; productRef = 3719C6D424530BA400DF532D /* MRTDKitSpec */; };
-		OBJ_100 /* MRTDKitTestUtilitiesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_46 /* MRTDKitTestUtilitiesTests.swift */; };
 		OBJ_101 /* XCTestManifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_47 /* XCTestManifests.swift */; };
 		OBJ_103 /* MRTDKitTestUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "MRTDKitTestUtils::MRTDKitTestUtils::Product" /* MRTDKitTestUtils.framework */; };
 		OBJ_57 /* AbstractTestMRZBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* AbstractTestMRZBuilder.swift */; };
@@ -101,7 +100,6 @@
 		OBJ_41 /* TestError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestError.swift; sourceTree = "<group>"; };
 		OBJ_42 /* TestMRZBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMRZBuilder.swift; sourceTree = "<group>"; };
 		OBJ_43 /* TestMRZValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMRZValues.swift; sourceTree = "<group>"; };
-		OBJ_46 /* MRTDKitTestUtilitiesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MRTDKitTestUtilitiesTests.swift; sourceTree = "<group>"; };
 		OBJ_47 /* XCTestManifests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestManifests.swift; sourceTree = "<group>"; };
 		OBJ_51 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
@@ -229,7 +227,6 @@
 		OBJ_45 /* MRTDKitTestUtilsTests */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_46 /* MRTDKitTestUtilitiesTests.swift */,
 				OBJ_47 /* XCTestManifests.swift */,
 			);
 			name = MRTDKitTestUtilsTests;
@@ -408,7 +405,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_100 /* MRTDKitTestUtilitiesTests.swift in Sources */,
 				OBJ_101 /* XCTestManifests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

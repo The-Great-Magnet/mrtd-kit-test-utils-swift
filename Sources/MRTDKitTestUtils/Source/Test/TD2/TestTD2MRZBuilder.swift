@@ -22,6 +22,10 @@ public class TestTD2MRZBuilder: TestMRZBuilder, TestTD2MRZBuilderFields {
 
     public var optionalData: String?
     public var compositeCheckDigit: Character?
+    
+    public init() {
+        
+    }
 
     public func aValidMRZ() -> TestTD2MRZBuilder {
 
