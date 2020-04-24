@@ -1,7 +1,7 @@
 import Foundation
 import os.log
 
-extension TestMRZBuilder {
+public extension TestMRZBuilder {
 
     func checkLineLength(lines: [String]) throws {
 

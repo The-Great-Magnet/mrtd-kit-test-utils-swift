@@ -3,29 +3,29 @@ import MRTDKitSpec
 import MRTDKitCore
 import os.log
 
-class TestTD3MRZBuilder: TestMRZBuilder, TestTD3MRZBuilderFields {
+public class TestTD3MRZBuilder: TestMRZBuilder, TestTD3MRZBuilderFields {
 
-    let mrtdDescriptor: MRTDDescriptor = TD3Descriptor.init()
+    public let mrtdDescriptor: MRTDDescriptor = TD3Descriptor.init()
 
-    var documentCode: String?
+    public var documentCode: String?
 
-    var issuingState: String?
-    var primaryIdentifier: String?
-    var secondaryIdentifier: String?
-    var documentNumber: String?
-    var documentNumberCheckDigit: Character?
-    var nationality: String?
-    var dateOfBirth: String?
-    var dateOfBirthCheckDigit: Character?
-    var sex: Character?
-    var dateOfExpiry: String?
-    var dateOfExpiryCheckDigit: Character?
+    public var issuingState: String?
+    public var primaryIdentifier: String?
+    public var secondaryIdentifier: String?
+    public var documentNumber: String?
+    public var documentNumberCheckDigit: Character?
+    public var nationality: String?
+    public var dateOfBirth: String?
+    public var dateOfBirthCheckDigit: Character?
+    public var sex: Character?
+    public var dateOfExpiry: String?
+    public var dateOfExpiryCheckDigit: Character?
 
-    var optionalData: String?
-    var optionalDataCheckDigit: Character?
-    var compositeCheckDigit: Character?
+    public var optionalData: String?
+    public var optionalDataCheckDigit: Character?
+    public var compositeCheckDigit: Character?
 
-    func aValidMRZ() -> TestTD3MRZBuilder {
+    public func aValidMRZ() -> TestTD3MRZBuilder {
 
         let copy = self
 
@@ -51,7 +51,7 @@ class TestTD3MRZBuilder: TestMRZBuilder, TestTD3MRZBuilderFields {
 
     }
 
-    func build(recalculateCheckDigits: Bool) -> MRZ {
+    public func build(recalculateCheckDigits: Bool) -> MRZ {
 
         var documentCode = self.documentCode ?? ""
         while documentCode.count < 2 {

@@ -1,6 +1,6 @@
 import Foundation
 
-protocol TestTD1MRZBuilderFields {
+public protocol TestTD1MRZBuilderFields {
 
     var documentCode: String? { get set }
     var optionalData1: String? { get set }

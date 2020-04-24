@@ -1,6 +1,6 @@
 import Foundation
 
-protocol TestMRVBMRZBuilderFields {
+public protocol TestMRVBMRZBuilderFields {
 
     var documentCode: String? { get set }
     var optionalData: String? { get set }

@@ -1,6 +1,6 @@
 import Foundation
 
-protocol TestMRVBMRZFields {
+public protocol TestMRVBMRZFields {
 
     static var documentCode: String { get }
     static var optionalData: String { get }

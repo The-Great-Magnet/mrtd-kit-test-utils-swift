@@ -2,7 +2,7 @@ import Foundation
 import MRTDKitSpec
 import MRTDKitCore
 
-protocol TestMRZBuilder: CommonMRZBuilderFields {
+public protocol TestMRZBuilder: CommonMRZBuilderFields {
 
     var mrtdDescriptor: MRTDDescriptor { get }
 

@@ -1,6 +1,6 @@
 import Foundation
 
-protocol TestTD3MRZFields {
+public protocol TestTD3MRZFields {
 
     static var documentCode: String { get }
     static var optionalData: String { get }

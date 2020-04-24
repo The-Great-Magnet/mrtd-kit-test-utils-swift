@@ -1,6 +1,6 @@
 import Foundation
 
-protocol CommonMRZBuilderFields {
+public protocol CommonMRZBuilderFields {
 
     var issuingState: String? { get set }
     var primaryIdentifier: String? { get set }

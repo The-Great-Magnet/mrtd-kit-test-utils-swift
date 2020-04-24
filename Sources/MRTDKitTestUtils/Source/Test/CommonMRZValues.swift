@@ -1,6 +1,6 @@
 import Foundation
 
-protocol CommonMRZValues {
+public protocol CommonMRZValues {
 
     static var issuingState: String { get }
     static var primaryIdentifier: String { get }
