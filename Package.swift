@@ -12,6 +12,9 @@ let package = Package(
             targets: ["MRTDKitTestUtils"]),
     ],
     dependencies: [
+        // Dependencies declare other packages that this package depends on.
+        .package(url: "https://github.com/The-Great-Magnet/mrtd-kit-spec-swift.git", .branch("develop")),
+        .package(url: "https://github.com/The-Great-Magnet/mrtd-kit-core-swift.git", .branch("develop")),
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
